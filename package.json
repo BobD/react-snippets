@@ -1,0 +1,25 @@
+{
+    "name": "react-snippets",
+    "displayName": "React Snippets",
+    "description": "Code snippets for Reactjs development",
+    "version": "0.0.1",
+    "publisher": "danmce",
+    "icon": "images/react.png",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "scripts": {
+        "watch": "tsc -watch -p ./"
+    }
+}

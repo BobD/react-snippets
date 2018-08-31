@@ -1,0 +1,119 @@
+{
+  "Import React": {
+		"prefix": "imr",
+		"body": [
+			"import React from 'react'"
+		],
+		"description": "Import React"
+	},
+	"Functional Component": {
+		"prefix": "fc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"class ${1} extends React.Component {",
+			"\trender () {",
+			"\t\treturn (",
+			"\t\t\t<p>Test</p>",
+			"\t\t)",
+			"\t}",
+			"}",
+			"", 
+			"export default ${1}",
+			""
+		],
+		"description": "A functional component"
+	},
+	"Functional Component With Styles": {
+		"prefix": "fcs",
+		"body": [
+			"import React from 'react'",
+			"import { withStyles } from '@material-ui/core/styles'",
+			"import styles from './styles'",
+			"",
+			"class ${1} extends React.Component {",
+			"\trender () {",
+			"\t\treturn (",
+			"\t\t\t<p>Test</p>",
+			"\t\t)",
+			"\t}",
+			"}",
+			"", 
+			"export default withStyles(styles)(${1})",
+			""
+		],
+		"description": "A functional component with MUI styles"
+	},
+	"Stateless Functional Component": {
+		"prefix": "sfc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const ${1} = () => {",
+			"\treturn (",
+			"\t\t<p>Test</p>",
+			"\t)",
+			"}",
+			"", 
+			"export default ${1}",
+			""
+		],
+		"description": "A staleless functional component"
+	},
+	"Stateless Functional Component With Styles": {
+		"prefix": "sfcs",
+		"body": [
+			"import React from 'react'",
+			"import { withStyles } from '@material-ui/core/styles'",
+			"import styles from './styles'",
+			"",
+			"const ${1} = () => {",
+			"\treturn (",
+			"\t\t<p>Test</p>",
+			"\t)",
+			"}",
+			"", 
+			"export default withStyles(styles)(${1})",
+			""
+		],
+		"description": "A staleless functional component with MUI styles"
+	},
+	"ClassNames": {
+		"prefix": "cn",
+		"body": [
+			"import classNames from 'classnames'"
+		],
+		"description": "Imports classNames"
+	},
+	"Story": {
+		"prefix": "st",
+		"body": [
+			"import React from 'react'",
+			"import StoryRouter from 'storybook-router'",
+			"/* THEME */",
+			"import ThemeDecorator from './themes/default'",
+			"",
+			"/* STORYBOOK  */",
+			"import { storiesOf, action } from '@storybook/react'",
+			"",
+			"storiesOf('${1}', module)",
+			"\t.add('${2}', () => (",
+			"\t\t<p>Test</p>",
+			"\t))",
+			""
+		],
+		"description": "React Storybook Story"
+	},
+	"Mui Style": {
+		"prefix": "sty",
+		"body": [
+			"const styles = theme => ({",
+			"",
+			"})",
+			"",
+			"export default styles",
+			""
+		],
+		"description": "Mui Style template"
+	}
+}
