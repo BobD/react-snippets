@@ -9,15 +9,27 @@ There you have either the option to show the already installed snippets or insta
 
 ## Snippets
 
-Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key.
+Below is a list of all available snippets and the triggers of each one.
 
 | Trigger  | Content |
 | -------: | ------- |
-| `cn→`    | import classnames |
-| `imr→`   | import react |
-| `fc→`    | a functional component |
-| `fsc→`   | a functional component with MUI styles |
-| `sfc→`   | a stateless functional component |
-| `sfcs→`  | a staleless functional component with MUI styles |
-| `st→`    | react storybook story |
-| `sty→`   | mui style template |
+| `imr`   | import react |
+| `cn`    | import classnames |
+| `fc`    | a functional component |
+| `sfc`   | a stateless functional component |
+| `ctor`  | a constructor |
+| `bm`    | bind a method to 'this' |
+| `ss`    | set state |
+| `cdm`   | componentDidMount lifecycle method |
+| `cdu`   | componentDidUpdate lifecycle method |
+| `cwu`   | componentWillUnmount lifecycle method |
+| `scu`   | shouldComponentUpdate lifecycle method |
+| `sfp`   | getDerivedStateFromProps lifecycle method |
+| `sbu`   | getSnapshotBeforeUpdate lifecycle method |
+| `cdc`   | componentDidCatch lifecycle method |
+| Material UI |
+| `sfcs`  | a staleless functional component with MUI styles |
+| `fcs`   | a functional component with MUI styles |
+| `sty`   | MUI style template |
+| StoryBook |
+| `st`    | react storybook story |
