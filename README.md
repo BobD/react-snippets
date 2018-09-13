@@ -1,5 +1,4 @@
-# Reactjs
-## VS Code React Snippets
+# VS Code React Snippets
 -------------------
 
 ## Installation
