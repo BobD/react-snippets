@@ -2,7 +2,7 @@
     "name": "react-snippets",
     "displayName": "React Snippets",
     "description": "Code snippets for Reactjs development",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "danmce",
     "icon": "images/react.png",
     "repository": {
