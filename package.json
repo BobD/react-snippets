@@ -10,7 +10,7 @@
         "url": "https://github.com/danmce/react-snippets"
     },
     "engines": {
-        "vscode": "^1.26.0"
+        "vscode": "^1.27.0"
     },
     "categories": [
         "Snippets"
@@ -22,8 +22,5 @@
                 "path": "./snippets/snippets.json"
             }
         ]
-    },
-    "scripts": {
-        "watch": "tsc -watch -p ./"
     }
 }
