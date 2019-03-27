@@ -1,5 +1,5 @@
 {
-  "Import React": {
+	"Import React": {
 		"prefix": "imr",
 		"body": [
 			"import React from 'react'"
@@ -25,7 +25,7 @@
 			"\t\t)",
 			"\t}",
 			"}",
-			"", 
+			"",
 			"export default ${1}",
 			""
 		],
@@ -41,7 +41,7 @@
 			"\t\t<p>Test</p>",
 			"\t)",
 			"}",
-			"", 
+			"",
 			"export default ${1}",
 			""
 		],
@@ -147,7 +147,7 @@
 			"\t\t<p>Test</p>",
 			"\t)",
 			"}",
-			"", 
+			"",
 			"export default withStyles(styles)(${1})",
 			""
 		],
@@ -167,7 +167,7 @@
 			"\t\t)",
 			"\t}",
 			"}",
-			"", 
+			"",
 			"export default withStyles(styles)(${1})",
 			""
 		],
@@ -184,6 +184,58 @@
 			""
 		],
 		"description": "Mui Style template"
+	},
+	"Stateless Functional Styled Component": {
+		"scope": "javascript,typescript",
+		"prefix": "ssfc",
+		"body": [
+			"import React from 'react'",
+			"import PropTypes from 'prop-types'",
+			"import styled from 'styled-components'",
+			"",
+			"const $1 = ({ title }) => {",
+			"\treturn (",
+			"\t\t<Container>{title}</Container>",
+			"\t)",
+			"}",
+			"",
+			"$1.propTypes = {",
+			"\t/** this is just an exmaple of how to do it */",
+			"\ttitle: PropTypes.string",
+			"}",
+			"",
+			"export default $1",
+			"",
+			"const Container = styled.div`",
+			"\ttext-align: center;",
+			"`",
+			""
+		],
+		"description": "a stateless functional styled component"
+	},
+	"React Native Stateless Functional Styled Component": {
+		"scope": "javascript,typescript",
+		"prefix": "ssfcn",
+		"body": [
+			"import React from 'react'",
+			"import PropTypes from 'prop-types'",
+			"import styled from 'styled-components/native'",
+			"import { Text } from 'react-native'",
+			"",
+			"const $1 = () => {",
+			"\treturn (",
+			"\t\t<Text>Test</Text>",
+			"\t)",
+			"}",
+			"",
+			"$1.propTypes = {",
+			"",
+			"}",
+			"",
+			"export default $1",
+			""
+		],
+		"description": "a RN stateless functional styled component"
 	},
 	"Story": {
 		"prefix": "st",

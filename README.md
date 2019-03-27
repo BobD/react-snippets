@@ -26,6 +26,10 @@ Below is a list of all available snippets and the triggers of each one.
 | `sfp`   | getDerivedStateFromProps lifecycle method |
 | `sbu`   | getSnapshotBeforeUpdate lifecycle method |
 | `cdc`   | componentDidCatch lifecycle method |
+| Styled Components |
+| `ssfc`  | a stateless functional styled component |
+| React Native |
+| `ssfcn`  | a RN stateless functional styled component |
 | Material UI |
 | `sfcs`  | a staleless functional component with MUI styles |
 | `fcs`   | a functional component with MUI styles |
